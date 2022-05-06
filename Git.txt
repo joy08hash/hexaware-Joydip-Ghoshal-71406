@@ -1,0 +1,41 @@
+6) Explain Git Life Cycle.
+
+Ans) General workflow is as follows −
+
+	- You clone the Git repository as a working copy.
+	- You modify the working copy by adding/editing files.
+	- If necessary, you also update the working copy by taking other developer's changes.
+	- You review the changes before commit.
+	- You commit changes. If everything is fine, then you push the changes to the repository.
+	- After committing, if you realize something is wrong, then you correct the last commit and push the changes to the repository.
+
+7) Describe the Git commands.
+
+ANs) Git commands are as follows:
+	git init - one way to start a new project with Git
+	git add - adds a change in the working directory to the staging area
+	git commit - captures a snapshot of the project's currently staged changes
+	git pull - used to update the local version of a repository from a remote
+	git push - used to upload local repository content to a remote repository
+	git checkout - refers to the action of swaping between different repository branches/files/commits
+	git log - a utility tool to review and read a history of everything that happens to a repository
+	git reset -used to undo local changes to the state of a Git repo
+	git revert - used for undoing changes to a repository's commit history
+	git merge - allows you to merge branches from Git
+
+8)  Difference between centrally controlled system vs distributed system
+
+	Centrally controlled system - A hardware and/or software IT system in which all parts of it are controlled by a central
+                                  controller/server/mainframe.
+
+	Distributed system - A hardware and/or software IT system in which various parts of the control and/or processing are controlled 
+                                                              by individual controllers/servers/computers throughout the system.
+
+	Centrally controlled system:
+		Advantages - Easy to control
+		Disadvantages - If the controller is damaged the whole system will stop working, the system will be overloaded
+
+	Distributed system:
+		Advantages - If one part is broken down the system will continue working
+		Disadvantages - Data loss can happen because the parts of the system will have to share the data with other parts,
+                                                                 finding errors in the system will be much harder
